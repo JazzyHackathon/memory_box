@@ -1,6 +1,6 @@
 $ (function(){
   var onChangeInput = function(e){
-    var inputText = e.target.value;
+    var inputText = e.target.value.toLowerCase();
     console.log (inputText);
     if (inputText === "") {
       $(".photo").show();
